@@ -1,7 +1,7 @@
-package a4.strategies;
+package game.strategies;
 
-import a4.gameObjects.SmartBomb;
-import a4.interfaces.IStrategy;
+import game.gameObjects.SmartBomb;
+import game.interfaces.IStrategy;
 
 /**
  * Used to change how a Smart Bomb acts during runtime. Will make the Smart Bomb bounce around the game

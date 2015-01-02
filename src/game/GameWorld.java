@@ -1,4 +1,29 @@
-package a4;
+package game;
+
+import game.commands.SpawnMonsterBall;
+import game.gameObjects.Car;
+import game.gameObjects.FieldSquare;
+import game.gameObjects.GameCollection;
+import game.gameObjects.GameObject;
+import game.gameObjects.MonsterBall;
+import game.gameObjects.MoveableObject;
+import game.gameObjects.SmartBomb;
+import game.gameObjects.Sweeper;
+import game.gameObjects.TimeTicket;
+import game.gameObjects.FieldSquare.State;
+import game.interfaces.ICollider;
+import game.interfaces.IGameWorld;
+import game.interfaces.IObservable;
+import game.interfaces.IObserver;
+import game.interfaces.ISelectable;
+import game.interfaces.Iterator;
+import game.sounds.AddTimeClip;
+import game.sounds.BGMusic;
+import game.sounds.CarExplosionClip;
+import game.sounds.CreateSquaresClip;
+import game.sounds.GrenadeClip;
+import game.sounds.LevelCompleteClip;
+import game.strategies.*;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -10,31 +35,6 @@ import java.util.Random;
 import java.util.Vector;
 
 import javax.swing.JOptionPane;
-
-import a4.commands.SpawnMonsterBall;
-import a4.gameObjects.Car;
-import a4.gameObjects.FieldSquare;
-import a4.gameObjects.GameCollection;
-import a4.gameObjects.GameObject;
-import a4.gameObjects.MonsterBall;
-import a4.gameObjects.MoveableObject;
-import a4.gameObjects.SmartBomb;
-import a4.gameObjects.Sweeper;
-import a4.gameObjects.TimeTicket;
-import a4.gameObjects.FieldSquare.State;
-import a4.interfaces.ICollider;
-import a4.interfaces.IGameWorld;
-import a4.interfaces.IObservable;
-import a4.interfaces.IObserver;
-import a4.interfaces.ISelectable;
-import a4.interfaces.Iterator;
-import a4.sounds.AddTimeClip;
-import a4.sounds.BGMusic;
-import a4.sounds.CarExplosionClip;
-import a4.sounds.CreateSquaresClip;
-import a4.sounds.GrenadeClip;
-import a4.sounds.LevelCompleteClip;
-import a4.strategies.*;
 
 /**
  * This class will handle all methods to create and handle all the game objects on the field. Will also

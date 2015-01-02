@@ -1,6 +1,6 @@
-package a4;
+package game;
 
-import a4.view.Game;
+import game.view.Game;
 
 /**
  * The class that starts the Xonix Game.

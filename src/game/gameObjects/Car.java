@@ -1,12 +1,12 @@
-package a4.gameObjects;
+package game.gameObjects;
+
+import game.interfaces.ICollider;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.geom.AffineTransform;
-
-import a4.interfaces.ICollider;
 
 
 /**

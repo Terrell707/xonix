@@ -1,10 +1,10 @@
-package a4.commands;
+package game.commands;
+
+import game.GameWorld;
 
 import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
-
-import a4.GameWorld;
 
 @SuppressWarnings("serial")
 public class DisplayAbout extends AbstractAction {

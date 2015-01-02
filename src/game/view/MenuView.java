@@ -1,11 +1,11 @@
-package a4.view;
+package game.view;
+
+import game.commands.*;
 
 import javax.swing.JCheckBoxMenuItem;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
-
-import a4.commands.*;
 
 @SuppressWarnings("serial")
 public class MenuView extends JMenuBar {

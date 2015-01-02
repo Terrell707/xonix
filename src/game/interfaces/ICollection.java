@@ -1,6 +1,6 @@
-package a4.interfaces;
+package game.interfaces;
 
-import a4.interfaces.Iterator;
+import game.interfaces.Iterator;
 /**
  * This Collection Interface provides the calling class with the methods to add, remove, search, and manipulate a
  * list of objects.

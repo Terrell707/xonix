@@ -1,4 +1,4 @@
-package a4.interfaces;
+package game.interfaces;
 
 /**
  * This Observable Interface gives the calling class the methods to keep a list of objects that are monitoring it,

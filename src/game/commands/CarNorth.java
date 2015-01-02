@@ -1,10 +1,10 @@
-package a4.commands;
+package game.commands;
+
+import game.GameWorld;
 
 import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
-
-import a4.GameWorld;
 
 /**
  * Invokes the command in the GameWorld that points the player car to the north.

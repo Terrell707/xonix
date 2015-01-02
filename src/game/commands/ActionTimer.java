@@ -1,11 +1,11 @@
-package a4.commands;
+package game.commands;
+
+import game.GameWorld;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.Timer;
-
-import a4.GameWorld;
 
 /**
  * Invokes the command in the GameWorld that moves and draw all the objects of the game.

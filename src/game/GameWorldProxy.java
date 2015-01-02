@@ -1,13 +1,13 @@
-package a4;
+package game;
+
+import game.interfaces.IGameWorld;
+import game.interfaces.IObservable;
+import game.interfaces.IObserver;
 
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;
-
-import a4.interfaces.IGameWorld;
-import a4.interfaces.IObservable;
-import a4.interfaces.IObserver;
 
 public class GameWorldProxy implements IObservable, IGameWorld {
 

@@ -1,6 +1,6 @@
-package a4.interfaces;
+package game.interfaces;
 
-import a4.gameObjects.SmartBomb;
+import game.gameObjects.SmartBomb;
 
 /**
  * Provides functionality for the object to change how it operates during runtime.

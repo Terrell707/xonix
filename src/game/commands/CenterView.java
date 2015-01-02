@@ -1,10 +1,10 @@
-package a4.commands;
+package game.commands;
+
+import game.GameWorld;
 
 import java.awt.event.ActionEvent;
 
 import javax.swing.AbstractAction;
-
-import a4.GameWorld;
 
 /**
  * Calls the command in the game world that places the view back on the center of the game world.

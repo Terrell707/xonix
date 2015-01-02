@@ -1,4 +1,4 @@
-package a4.sounds;
+package game.sounds;
 
 import java.applet.Applet;
 import java.applet.AudioClip;

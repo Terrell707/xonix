@@ -1,4 +1,8 @@
-package a4.gameObjects;
+package game.gameObjects;
+
+import game.gameObjects.FieldSquare.State;
+import game.interfaces.ICollider;
+import game.interfaces.ISteerable;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -6,10 +10,6 @@ import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.geom.AffineTransform;
 import java.util.Vector;
-
-import a4.gameObjects.FieldSquare.State;
-import a4.interfaces.ICollider;
-import a4.interfaces.ISteerable;
 
 /**
  * This class will create and initialize a Monster Ball. Monster Balls are enemies that will destroy the player when touched.

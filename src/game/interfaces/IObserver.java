@@ -1,4 +1,4 @@
-package a4.interfaces;
+package game.interfaces;
 
 /**
  * The Observer Interface give the calling class the methods to be signaled when a class it is monitoring

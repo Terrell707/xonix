@@ -1,4 +1,8 @@
-package a4.view;
+package game.view;
+
+import game.GameWorld;
+import game.GameWorldProxy;
+import game.commands.*;
 
 import java.awt.BorderLayout;
 import java.awt.event.KeyAdapter;
@@ -11,10 +15,6 @@ import java.awt.geom.Point2D;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
-
-import a4.GameWorld;
-import a4.GameWorldProxy;
-import a4.commands.*;
 
 /**
  * Creates and initializes the Game World. This class allows the user to send commands to the Game World

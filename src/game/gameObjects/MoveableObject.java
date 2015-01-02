@@ -1,4 +1,4 @@
-package a4.gameObjects;
+package game.gameObjects;
 
 import java.awt.Color;
 import java.awt.geom.Point2D;

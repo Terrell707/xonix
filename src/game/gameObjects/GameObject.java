@@ -1,11 +1,11 @@
-package a4.gameObjects;
+package game.gameObjects;
+
+import game.interfaces.ICollider;
+import game.interfaces.IDrawable;
 
 import java.awt.Color;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;
-
-import a4.interfaces.ICollider;
-import a4.interfaces.IDrawable;
 
 /**
  * The GameObject class inherits from the Point class to give attributes to the point.

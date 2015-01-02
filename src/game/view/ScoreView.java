@@ -1,4 +1,8 @@
-package a4.view;
+package game.view;
+
+import game.interfaces.IGameWorld;
+import game.interfaces.IObservable;
+import game.interfaces.IObserver;
 
 import java.awt.FlowLayout;
 import java.awt.Graphics;
@@ -6,10 +10,6 @@ import java.awt.Graphics;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EtchedBorder;
-
-import a4.interfaces.IGameWorld;
-import a4.interfaces.IObservable;
-import a4.interfaces.IObserver;
 
 /**
  * Provides the view that holds the player's current statistics for the game.

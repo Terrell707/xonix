@@ -1,8 +1,8 @@
-package a4.gameObjects;
+package game.gameObjects;
+
+import game.gameObjects.GameObject;
 
 import java.awt.Color;
-
-import a4.gameObjects.GameObject;
 
 /**
  * An abstract class to define the basis of any Game Object that will not be moved.

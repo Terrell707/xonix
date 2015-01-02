@@ -1,4 +1,4 @@
-package a4.interfaces;
+package game.interfaces;
 
 /**
  * This interface provides method for the class to go through the items in the collection. 

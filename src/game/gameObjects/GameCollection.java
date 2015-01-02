@@ -1,9 +1,9 @@
-package a4.gameObjects;
+package game.gameObjects;
+
+import game.interfaces.ICollection;
+import game.interfaces.Iterator;
 
 import java.util.Vector;
-
-import a4.interfaces.ICollection;
-import a4.interfaces.Iterator;
 
 public class GameCollection implements ICollection{
 	

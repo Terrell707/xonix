@@ -1,4 +1,6 @@
-package a4.view;
+package game.view;
+
+import game.commands.*;
 
 import java.awt.GridLayout;
 
@@ -9,8 +11,6 @@ import javax.swing.JComponent;
 import javax.swing.JPanel;
 import javax.swing.KeyStroke;
 import javax.swing.border.TitledBorder;
-
-import a4.commands.*;
 
 /**
  * Creates a panel that creates JButtons and adds appropriate commands to them. Also adds key bindings to the

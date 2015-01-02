@@ -1,4 +1,4 @@
-package a4.interfaces;
+package game.interfaces;
 
 import java.awt.Rectangle;
 import java.awt.geom.Point2D;

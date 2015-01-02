@@ -1,4 +1,4 @@
-package a4.interfaces;
+package game.interfaces;
 
 public interface ISteerable {
 	

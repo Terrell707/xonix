@@ -1,4 +1,7 @@
-package a4.gameObjects;
+package game.gameObjects;
+
+import game.interfaces.ICollider;
+import game.interfaces.ISelectable;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -6,9 +9,6 @@ import java.awt.Graphics2D;
 import java.awt.Rectangle;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Point2D;
-
-import a4.interfaces.ICollider;
-import a4.interfaces.ISelectable;
 
 /**
  * This class will create and initialize a Time Ticket. Time Tickets are used to grant a player an additional amount.
